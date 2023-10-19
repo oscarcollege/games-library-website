@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!--1 #FFFFFF 2 #00A7E1 3 #00171F 4 #F194B4 5 #F39237-->
+    <!--1 #384D61 2 #486887 3 #2D95F7-->
+    <!--1 #013361 2 #2D90ED 3 #2D455C 4 #d3d0cb-->
+
+    <nav class="bg-black">
+        <div class="flex justify-center">
+            <img src="images/xwhite.png">
+            <span class="text-white my-auto text-3xl">games</span>
+        </div>
+    </nav>
+
+    <div>
+        <h1 class="font-black text-9xl mb-10 rounded-full">Wishlist</h1>
+        <div class="flex flex-row space-x-4 max-w-full overflow-scroll overflow-y-hidden rounded-full">
+            {{Wishlist}}
+        </div>
+
+        <br>
+        <h1 class="font-black text-9xl mb-10 rounded-full">Popular</h1>
+        <div class="flex flex-row space-x-4 max-w-full overflow-scroll overflow-y-hidden rounded-full">
+            {{Popular Games List}}
+        </div>
+
+        <br>
+        <h1 class="font-black text-9xl mb-10 rounded-full">Friends Play</h1>
+        <div class="flex flex-row space-x-4 max-w-full overflow-scroll overflow-y-hidden rounded-full">
+            {{Friends Played}}
+        </div>
+        
+        <br>
+        <h1 class="font-black text-9xl mb-10 rounded-full">Recommended</h1>
+        <div class="flex flex-row space-x-4 max-w-full overflow-scroll overflow-y-hidden rounded-full">
+            {{Recommended}}
+        </div>
+    </div>
+</body>
+<footer class="bg-black text-white">
+    <p class="text-center">© me</p>
+</footer>
+</html>
