@@ -1,1 +1,2 @@
-![Alt text](image.png)
+![Alt text](readme-images/home.png)
+
