@@ -4,4 +4,4 @@ The home page has a list of game categories with the games below it. You can scr
 
 ![](readme-images/game-page.png)
 
-You can go back to the home page by clicking the logo, add the game to your wishlist or buy it now. 
+This page shows a carousel of images relating to the game and a description below it. You can go back to the home page by clicking the logo, add the game to your wishlist or buy it now. 
